@@ -18,7 +18,7 @@ A sample Flutter application that integrates with the [PokéAPI](https://pokeapi
   - Base Experience
   - Other additional details
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack!
 
 | Feature         | Tech Used        |
 |----------------|------------------|
@@ -32,4 +32,4 @@ A sample Flutter application that integrates with the [PokéAPI](https://pokeapi
 
 | Home (List View) | Home (Grid View) | Details Page |
 |------------------|------------------|--------------|
-| ![List View](screenshots/list_view.png) | ![Grid View](screenshots/grid_view.png) | ![Detail View](screenshots/detail_view.png) |
+| ![List View](screenshots/list_view.png) | ![Grid View](https://github.com/user-attachments/assets/7d0e9558-aa0b-4a6a-94b1-f42c27d4caee)| ![Detail View](https://github.com/user-attachments/assets/d28382b8-526e-488e-a6c4-a61d32e1cfdb) |
