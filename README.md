@@ -34,4 +34,4 @@ A sample Flutter application that integrates with the [PokéAPI](https://pokeapi
 
 | Home (List View) | Home (Grid View) | Details Page |
 |------------------|------------------|--------------|
-| ![List View](https://github.com/user-attachments/assets/9d8b6dad-9bb7-493d-9f0b-3ad586452f95](https://github.com/user-attachments/assets/bd6d71b9-3a8e-4f5c-8a8b-f4e3c9813fe9)| ![Grid View](https://github.com/user-attachments/assets/7d0e9558-aa0b-4a6a-94b1-f42c27d4caee)| ![Detail View](https://github.com/user-attachments/assets/d28382b8-526e-488e-a6c4-a61d32e1cfdb) |
+| ![List View](https://github.com/user-attachments/assets/bd6d71b9-3a8e-4f5c-8a8b-f4e3c9813fe9) | ![Grid View](https://github.com/user-attachments/assets/7d0e9558-aa0b-4a6a-94b1-f42c27d4caee) | ![Detail View](https://github.com/user-attachments/assets/d28382b8-526e-488e-a6c4-a61d32e1cfdb) |
