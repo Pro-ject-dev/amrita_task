@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:pokemon/blocs/pokemon_bloc_bloc.dart';
 import 'package:pokemon/screens/detailspage.dart';
 import 'package:pokemon/utils/colors.dart';
 import 'package:pokemon/utils/constants.dart';
@@ -35,12 +33,8 @@ Navigator.push(
       limit: limit,
     ),
   ),
-).then((_) {
- 
-      BlocProvider.of<PokemonBloc>(context).add(
-        GetPokemonsEvent(offset: offset, limit: limit),
-      );
-});
+);
+
 
 
           },

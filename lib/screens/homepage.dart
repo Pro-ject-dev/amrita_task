@@ -59,14 +59,12 @@ class _PokemonHomePageState extends State<PokemonHomePage>
       body: BlocBuilder<PokemonBloc, PokemonBlocState>(
         bloc: BlocProvider.of<PokemonBloc>(context),
         builder: (context, state) {
-          if (state is GetPokemonLoadingState && offset == 0) {
+          if (state is GetPokemonLoadingState) {
             return Loading.loadingWidget();
           } else if (state is GetPokemonErrorState) {
             return ErroruiWidget.errorwidget(state, context);
           } else if (state is GetPokemonSuccessState) {
-            if (state is GetPokemonLoadingState == false) {
-              _isLoading = false;
-            }
+            _isLoading = false;
             final pokemons = state.pokemons.results ?? [];
             return Column(
               children: [

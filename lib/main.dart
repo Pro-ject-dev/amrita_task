@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         
         debugShowCheckedModeBanner: false,
-        title: 'Flutter Demo',
+        title: 'Pokemon Task',
         theme: ThemeData(
           textTheme: GoogleFonts.mulishTextTheme(Theme.of(context).textTheme),
           primaryColor: primaryColor
