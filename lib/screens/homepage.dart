@@ -35,12 +35,9 @@ class _PokemonHomePageState extends State<PokemonHomePage>
   }
 
   void loadNextPage() {
-    setState(() {
-      _isLoading = true;
-      _currentPage++;
-      offset = (_currentPage - 1) * limit;
-    });
-
+    _isLoading = true;
+    _currentPage++;
+    offset = (_currentPage - 1) * limit;
     BlocProvider.of<PokemonBloc>(context)
         .add(GetPokemonsEvent(offset: offset, limit: limit));
   }
@@ -118,7 +115,7 @@ class _PokemonHomePageState extends State<PokemonHomePage>
         color: cardcolor,
         boxShadow: [
           BoxShadow(
-            color: appBarforeColor .withOpacity(0.1),
+            color: appBarforeColor.withOpacity(0.1),
             blurRadius: 10,
             offset: const Offset(0, -5),
           ),
